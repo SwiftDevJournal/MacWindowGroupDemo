@@ -11,7 +11,7 @@ import SwiftUI
 struct MacWindowGroupDemoApp: App {
     var body: some Scene {
         // Set the window group to open a window for each folder opened in the app.
-        WindowGroup(id: "folder", for: Folder.self) { $folder in
+        WindowGroup(for: Folder.self) { $folder in
             ContentView()
                 .navigationTitle(folder?.displayName ?? "Window")
         }
