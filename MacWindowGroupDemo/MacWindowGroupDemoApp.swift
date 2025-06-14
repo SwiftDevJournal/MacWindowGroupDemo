@@ -14,7 +14,6 @@ struct MacWindowGroupDemoApp: App {
             ContentView()
                 .navigationTitle(folder?.displayName ?? "Window")
         }
-        .handlesExternalEvents(matching: ["folder"])
         .commands {
             // Add the Open menu item to the File menu.
             CommandGroup(after: .newItem) {
