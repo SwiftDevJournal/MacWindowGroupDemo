@@ -24,7 +24,7 @@ struct OpenFolderView: View {
             switch result {
             case .success(let url):
                 let folder = Folder(url: url)
-                openWindow(id: "folder", value: folder)
+                openWindow(value: folder)
             case .failure(let error):
                 print(error)
             }
