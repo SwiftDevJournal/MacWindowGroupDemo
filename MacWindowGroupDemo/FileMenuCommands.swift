@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// This is the code for the Open Folder menu item, which appears in the File menu in the app. When someone chooses the menu item, an Open panel appears. When someone selects a folder from the Open panel and clicks the Open button, a new window opens for the selected folder.
 struct OpenFolderView: View {
     @State private var shouldOpenFolder = false
     @Environment(\.openWindow) private var openWindow
