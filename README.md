@@ -1,6 +1,6 @@
 # Mac WindowGroup Demo
 
-This project is a simple demo for opening document-like windows using SwiftUI's `WindowGroup` scene. 
+This project is a simple demo for opening document-like windows using SwiftUI's `WindowGroup` scene type. 
 
 ## Running the App
 
